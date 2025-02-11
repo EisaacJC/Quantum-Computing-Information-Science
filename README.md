@@ -7,33 +7,93 @@ seo:
   type: Course
   name: Just the Class
 ---
+# Introduction to Quantum Computing and Quantum Information Science
 
-# Just the Class
+### Author of the course: BSc., MSc. Emmanuel Isaac Juárez Caballero
+This course aims to provide a comprehensive education on the fundamental concepts of quantum computing and information.
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+**Prerequisites:**
+- Linear Algebra
+- Differential and Integral Calculus
+- (Suggested) Modern Physics
+**Main Bibliography:**
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+- Quantum Computation
+- Introduction to Quantum Information Science
+- Introduction
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+**Deliverables:**
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+The course consists of 3 assignments, one for each part of the course, which must be submitted no later than one week after the end of each section. The assignments can be found available (as well as the digital content of the course) in this GitHub repository.
 
-## Getting Started
+The assignments consist of a theoretical evaluation where theorems that are commonly used in quantum computing and relevant to each of the sections are referred to.
 
-Getting started with Just the Class is simple.
+In the same way, there is a complement that are simulation tasks, algorithm generation, which can be delivered in the language of preference.
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+For this course, the use of the following programming languages ​​is proposed for the resolution of tasks, these are recommendations and are not exclusive, that is, you can carry out your implementations in the language of your preference.
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+- Python
+    - Qiskit
+    - Pennylane
+    - Cirq
+- Mathematica
+- Julia
 
-### Local development environment
+---
 
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+### Part 1: Fundamentals of quantum computing. (Week 1-5)
+
+**Topics to be covered:**
+
+- Week 1,2: Fundamentals of quantum mechanics.
+    - Mathematical foundations of quantum mechanics.
+    - Postulates of quantum mechanics.
+    - Classical limits of quantum mechanics.
+- Week 3,4: Quantum Computing
+    - Basic concepts of traditional computing and key differences with quantum computing.
+    - Types of quantum computers.
+    - Computational basis.
+    - Quantum gates: singular and multiple.
+    - Measurements in bases other than the computational one.
+    - Quantum circuits as a computational model.
+- Week 5: Quantum Algorithms
+    - Quantum Parallelism
+    - Deutsch-Jozsa algorithm
+
+### Part 2: Quantum Algorithms. (Week 6-11)
+
+- Week 6: Introduction to quantum algorithms.
+    - Quantum parallelism
+    - Deutsch-Jozsa algorithm
+- Week 7: The Quantum Fourier Transform.
+    - The phase estimation algorithm.
+    - Applications of the Quantum Fourier Transform.
+- Week 8, 9: Quantum search algorithms
+    - The quantum search algorithm.
+    - Optimality of the search algorithm.
+- Week 10, 11: Quantum Machine Learning (QML)
+    - Quantum Support Vector Machines (QSVM)
+    - Quantum Neural Networks (QNN)
+    - Quantum Convolutional Neural Networks (QCNN)
+    - Hybrid approaches.
+
+### Part 3: Introduction to quantum information. (week 12-16)
+
+- Week 12,13: Information measures in Quantum Systems.
+    - Shannon entropy in classical information theory.
+    - Mutual information in classical information.
+    - Von Neumann entropy.
+    - Trace distance.
+    - Fidelity and Uhlman's Theorem.
+- Week 14,15: Quantum entanglement and coding of the classical-quantum channel.
+    - Classical and quantum correlation.
+    - Quantification of entanglement.
+    - Multipartite entanglement.
+    - Entanglement of mixed states.
+    - Quantum hypothesis testing.
+    - Transmission of messages over quantum channels.
+- Week 16: Error correction and quantum cryptography.
+    - Quantum error correction:
+        - Pauli Channel.
+        - Asymptotic theory.
+    - Applications of quantum cryptography.
