@@ -10,17 +10,28 @@ seo:
 # Introduction to Quantum Computing and Quantum Information Science
 
 ### Author of the course: BSc., MSc. Emmanuel Isaac Juárez Caballero
+
 This course aims to provide a comprehensive education on the fundamental concepts of quantum computing and information.
 
 **Prerequisites:**
+
 - Linear Algebra
 - Differential and Integral Calculus
 - (Suggested) Modern Physics
+
+
+
 **Main Bibliography:**
 
-- Quantum Computation
-- Introduction to Quantum Information Science
-- Introduction
+
+* **Nielsen, M. A., & Chuang, I. L. (2010). Quantum computation and quantum information (2nd ed.). Cambridge University Press.**
+
+
+* **Hayashi, M. (2006). Quantum information science: An introduction to mathematics and physics of quantum information processing. Springer.**
+
+
+* **Vedral, V. (2006). Introduction to quantum information science. Oxford University Press.**
+
 
 **Deliverables:**
 
