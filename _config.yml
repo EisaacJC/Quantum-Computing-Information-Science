@@ -17,8 +17,8 @@ title: Just the Class
 tagline: A Jekyll template for course websites
 description: A modern, highly customizable, responsive Jekyll template for course websites
 author: Kevin Lin
-baseurl: 'https://eisaacjc.github.io/Quantum-Computing-Information-Science' # the subpath of your site, e.g. /blog
-url: 'Quantum-Computing-Information-Science' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: 'Quantum-Computing-Information-Science' # the subpath of your site, e.g. /blog
+url: 'https://eisaacjc.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
