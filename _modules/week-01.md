@@ -1,5 +1,5 @@
 ---
-title: Introduction to Java
+title: Foundations of Quantum Mechanics
 ---
 
 Sep 28
@@ -7,7 +7,7 @@ Sep 28
   : [1.1](#)
 
 Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
+: **Section**{: .label .label-purple }[Mathematical Foundations of ](#)
   : [Solution](#)
 
 Sep 30
